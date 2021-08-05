@@ -27,11 +27,9 @@ if vur == "2" :
    os.system("sudo nmap -sS -sV " + vur3)
 if vur == "3":
    vur4 = input("açıklı url => ")
-   os.system("service tor start")
    os.system("sqlmap "+vur4 + "--dbs --batch")
 if vur == "4":
    vur4 = input("Example : https://otuzbir.com/ => ")
-   os.system("service tor start")
    os.system("sqlmap "+vur4 + "--forms --risk=3 --level=5 --skip-waf -v 2 --dbs --batch --tor")
 if vur == "5":
    vur4 = input("ip'sini bulmak istediğiniz site => ")
