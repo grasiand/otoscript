@@ -1,12 +1,7 @@
 import os
-author="Coded By Picadoor :)"                 
+author="Grasiand :)"                 
 print("""
-                _          _   _                   _               _                  
-   ___ ___   __| | ___  __| | | |__  _   _   _ __ (_) ___ __ _  __| | ___   ___  _ __ 
-  / __/ _ \ / _` |/ _ \/ _` | | '_ \| | | | | '_ \| |/ __/ _` |/ _` |/ _ \ / _ \| '__|
- | (_| (_) | (_| |  __/ (_| | | |_) | |_| | | |_) | | (_| (_| | (_| | (_) | (_) | |   
-  \___\___/ \__,_|\___|\__,_| |_.__/ \__, | | .__/|_|\___\__,_|\__,_|\___/ \___/|_|   
-                                     |___/  |_|                                       
+Ꮆ尺卂丂İ卂几ᗪ Gururla Sunar.
 ____________________
 1- Nmap İle Hafif Port Tara
 2- Nmap İle Servis Versiyon Bilgisini Al
@@ -29,7 +24,7 @@ if vur == "3":
    vur4 = input("açıklı url => ")
    os.system("sqlmap "+vur4 + "--dbs --batch")
 if vur == "4":
-   vur4 = input("Example : https://otuzbir.com/ => ")
+   vur4 = input("Example : https://ornek.com/ => ")
    os.system("sqlmap "+vur4 + "--forms --risk=3 --level=5 --skip-waf -v 2 --dbs --batch --tor")
 if vur == "5":
    vur4 = input("ip'sini bulmak istediğiniz site => ")
@@ -48,5 +43,3 @@ if vur == "8":
    os.system("python3 md5-cracker.py "+vur4+" ")
 else   : 
   print("yanlış seçim")
-  os.system("python3 oto.py")
-
